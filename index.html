@@ -1,44 +1,233 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KFC</title>
-</head>
-<body>
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container container">
+          <input type="checkbox" name="" id="">
+          <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#food">CATEGORIES</a></li>
+              <li><a href="about.html">ORDER</a></li>
+              <li><a href="#testimonials">TESTIMONIAL</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+          </ul>
+          <h1 class="logo" style="color: brown;">KFC</h1>
       </div>
-<style>
+  </nav>
+    <section class="showcase-area" id="showcase">
+      <div class="showcase-container">
+        <h1 class="main-title" id="home" style="color: black; font-size: larger; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">WELCOME</h1>
+        <p style="font-size: x-large;">Chicken Lovers</p>
+      </div>
+    </section>
 
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
+    <section id="about">
+      <div class="about-wrapper container">
+        <div class="about-text">
+          <p class="small">About Us</p>
+          <h2>Journey of fried chicken, through the ages</h2>
+          <p>
+            It all started with Colonel Harland Sanders creating a finger lickin’ good recipe more than 75 years ago.The Colonel’s Secret Recipe continues to be as guarded; and our commitment towards Food, People and Planet remains as steadfast. With a new KFC restaurant opening every 6 hours, we power on to serve the World’s Tastiest Chicken!
+          </p>
+        </div>
+        <div class="about-img">
+          <img src="https://online.kfc.co.in/static/media/finger_lickin.fc21c805.svg" style="height: 65%;" alt="food" />
+        </div>
+      </div>
+    </section>
+    <section id="food">
+      <h2>BROWSE CATEGORIES</h2>
+      <div class="food-container container">
+        <div class="food-type fruite">
+          <div class="img-container">
+            <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT224.jpg?ver=36.43" alt="error" />
+            <div class="img-content">
+              <h3>Value Snacker</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/Fruit"
+                class="btn btn-primary"
+                target="blank"
+                >learn more</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="food-type vegetable">
+          <div class="img-container">
+            <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT170.jpg?ver=36.43" alt="error" />
+            <div class="img-content">
+              <h3>Chicken Roll</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/Vegetable"
+                class="btn btn-primary"
+                target="blank"
+                >learn more</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="food-type grin">
+          <div class="img-container">
+            <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT158.jpg?ver=36.43" alt="error" style="height: 100%;" />
+            <div class="img-content">
+              <h3>Box Meal</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/Grain"
+                class="btn btn-primary"
+                target="blank"
+                >learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="food-container container">
+        <div class="food-type fruite">
+          <div class="img-container">
+            <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT190.jpg?ver=36.43" alt="error" style="height: 100%;" />
+            <div class="img-content">
+              <h3>Biriyani Bucket</h3>
+              <a
+                href="https://en.wikipedia.org/wiki/Fruit"
+                class="btn btn-primary"
+                target="blank"
+                >learn more</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="food-container container">
+          <div class="food-type fruite">
+            <div class="img-container">
+              <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/categories/CAT99.jpg?ver=36.43" alt="error" />
+              <div class="img-content">
+                <h3>Burgers</h3>
+                <a
+                  href="https://en.wikipedia.org/wiki/Fruit"
+                  class="btn btn-primary"
+                  target="blank"
+                  >learn more</a
+                >
+              </div>
+            </div>
+          </div>
+    </section>
+    <section id="testimonials">
+      <h2 class="testimonial-title">From Our Team</h2>
+      <div class="testimonial-container container">
+        <div class="testimonial-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img src="https://i.postimg.cc/5Nrw360Y/male-photo1.jpg" alt="" />
+              <p class="customer-name">Ross Lee</p>
+            </div>
+          </div>
+          <div class="star-rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p class="testimonial-text">
+            Fried chicken is our pride and joy, and it’s our job to ensure that every aspect of our chicken and our delicious sides- from farm to fingers- are finger lickin’ good, done the right way.
+          </p>
+         
+        </div>
+        <div class="testimonial-box">
+          <div class="customer-detail">
+            <div class="customer-photo">
+              <img
+                src="https://i.postimg.cc/sxd2xCD2/female-photo1.jpg"
+                alt=""
+              />
+              <p class="customer-name">Amelia Watson</p>
+            </div>
+          </div>
+          <div class="star-rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p class="testimonial-text">
+            At KFC parent company, Yum! Brands, our Good Growth strategy is grounded in the idea that our business will only endure if our brands are inclusive, sustainable, and reflective of evolving employee, franchisee and other stakeholder needs. 
+          </p>
+        </div>
+    </section>
+    <section id="contact">
+      <div class="contact-container container">
+        <div class="contact-img">
+          <img src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002169.jpg?ver=36.43" alt="" style="height: 100%" />
+        </div>
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+        <div class="form-container">
+          <h2>Contact Us</h2>
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="E-Mail" />
+          <textarea
+            cols="30"
+            rows="6"
+            placeholder="Type Your Message"
+          ></textarea>
+          <a href="#" class="btn btn-primary">Submit</a>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+    </footer>
+  </body>
+  <!-- 
+    .................../ JS Code for smooth scrolling /...................... -->
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on("click", function (event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
 
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-</style>
+          // Store hash
+          var hash = this.hash;
 
-
-</body>
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            800,
+            function () {
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            }
+          );
+        } // End if
+      });
+    });
+  </script>
 </html>
